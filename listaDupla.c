@@ -41,6 +41,26 @@ void insereDepois (ListaDupla l, link x, link t) {
   }
 }
 
+link menorNo (link head){
+  link t - l->head;
+  int aux=0;
+  while (t != l->z){
+    if (aux<t){
+      aux=t;
+    }
+  }
+  while (t!= l->z){
+    if (aux>t){
+      aux=t;
+    }
+  }
+printf ("%d", aux);
+}
+
+ link ordenaNo (link head){
+   
+   
+ }
 link removeNo (link x) {
   x->prev->next = x->next;
   x->next->prev = x->prev;
