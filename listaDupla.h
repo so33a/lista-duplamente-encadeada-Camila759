@@ -23,5 +23,5 @@ void imprime(ListaDupla l);
 void imprimeReverso(ListaDupla l);
 void destroiLista(ListaDupla l);
 void menorNo (listaDupla 1, int item);
-
+void ordenaNo(listaDupla 1, int item);
 #endif
